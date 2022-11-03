@@ -15,7 +15,7 @@ const Pacientes = ({paciente, setPaciente, eliminarPaciente}) => {
           <span className="font-normal normal-case">{nombre}</span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
-          Propietario: {' '}
+          Responsable: {' '}
           <span className="font-normal normal-case">{propietario}</span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
@@ -23,7 +23,7 @@ const Pacientes = ({paciente, setPaciente, eliminarPaciente}) => {
           <span className="font-normal normal-case">{email}</span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
-          Fecha Alta: {' '}
+          Fecha de Registro: {' '}
           <span className="font-normal normal-case">{fecha}</span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">

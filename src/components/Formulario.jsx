@@ -104,12 +104,12 @@ export default function Formulario({pacientes, setPacientes, paciente, setPacien
       <div className="mb-5">
         <label htmlFor="propietario" 
           className='block text-gray-700 uppercase font-bold' >
-          Nombre del Propietario
+          Nombre del Responsable
         </label>
         <input 
             id="propietario"   
             type="text"                    
-            placeholder="Nombre del Propietario"
+            placeholder="Nombre del Responsable"
             className="border-2 w-full mt-2 p-2 placeholder-gray-400 rounded-md"          
             value={propietario}
             onChange={ (e)=> setPropietario(e.target.value) }
@@ -124,7 +124,7 @@ export default function Formulario({pacientes, setPacientes, paciente, setPacien
             id="email"   
             type="text"                    
             placeholder="Contacto Correo"
-            className="border-2 w-full mt-2 p-2 placeholder-gray-400 rounded-md"          
+            className="border-2 w-full mt-2 p-2 placeholder-gray-400 rounded-md lowercase"          
             value={email}
             onChange={ (e)=> setEmail(e.target.value) }
          />
@@ -132,7 +132,7 @@ export default function Formulario({pacientes, setPacientes, paciente, setPacien
          <div className="mb-5">
         <label htmlFor="alta" 
           className='block text-gray-700 uppercase font-bold' >
-          Fecha de Alta
+          Fecha de Registro
         </label>
         <input 
             id="alta"   
